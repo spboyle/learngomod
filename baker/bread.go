@@ -33,4 +33,7 @@ func BakeBread(ingredients ...string) {
 						  ████████▓▓▓▓▓▓▓▓▓▓▓▓██████
 								  ████████████
 	`)
+
+
+	fmt.Println("**** ENJOY ****")
 }
