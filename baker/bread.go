@@ -1,6 +1,8 @@
 package baker
 
 import (
+	"colors"
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
