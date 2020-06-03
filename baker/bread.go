@@ -19,7 +19,7 @@ func BakeBread(ingredients ...string) {
 	fmt.Println("Baking...")
 	fmt.Println("Done!")
 
-	bread, err := ioutil.ReadFile("bread.txt")
+	bread, err := ioutil.ReadFile("baker/bread.txt")
 	if err != nil {
 		panic(err)
 	}
