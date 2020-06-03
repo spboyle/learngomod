@@ -2,7 +2,6 @@ package baker
 
 import (
 	"fmt"
-	// "io/ioutil"
 	"os"
 	"path/filepath"
 )
@@ -28,11 +27,6 @@ func BakeBread(ingredients ...string) {
 
 	exPath := filepath.Dir(ex)
 	fmt.Printf("You are in %v\n", exPath)
-	// bread, err := ioutil.ReadFile("baker/bread.txt")
-	// if err != nil {
-	//	panic(err)
-	// }
-	// fmt.Println(string(bread))
 
 	fmt.Println("**** ENJOY ****")
 }
