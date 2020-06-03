@@ -1,11 +1,12 @@
 package baker
 
 import (
-	"colors"
 	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
+
+	"github.com/fatih/color"
 )
 
 func MakeBread(i string, j string) {
